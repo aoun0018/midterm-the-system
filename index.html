@@ -9,60 +9,65 @@
 </head>
 <body>
     <header>
-        <h1>THE SYSTEM</h1>
-    </header>
-    <div class="navigation">
-        <nav>
+        <div class="header-container">
+        <div class="logo">
+        <h2>THE <span class="block">SYSTEM</span></h2>
+        </div>
+        <nav class="navigation" role="navigation">
             <ul>
-                <li>Planets</li>
-                <li>Interstellar</li>
-                <li class="contact-btn">Contact</li>
+                <li><a href="#">Planets</a></li>
+                <li><a href="#">Interstellar</a></li>
+                <li class="contact-btn"><a href="#">Contact</a></li>
             </ul>
         </nav>
     </div>
-    <section class="hero">
-    
+
+</header>
+    <section class="hero" role="banner">
         <p>THE SYSTEM MAGAZINE</p>
-        <h2>Welcome to the Solar System</h2>
+        <h1>Welcome to the <span class="colorSwitch">Solar System</span> </h1>
         <p>Take a tour around the coolest stellar system around.</p>
     </section>
+    <main role="main">
     <section>
         <h3>Meet the locals</h3>
         <div class="planet-grid">
             <div class="planet">
-                <img src="images/sun.jpg" alt="sun" >  
+                <img src="images/sun.jpg" alt="Image of the sun" >  
                 <h3>The Sun</h3>
-                <button>Learn More</button>
+                <a href="https://en.wikipedia.org/wiki/Sun" class="btn">Learn More</a> 
             </div>
             <div class="planet">
-                <img src="images/mercury.jpg" alt="mercury">
+                <img src="images/mercury.jpg" alt="Image of the planet mercury">
                 <h3>Mercury</h3>
-                <button>Learn More</button>
+                <a href="https://en.wikipedia.org/wiki/Mercury_(planet)" class="btn">Learn More</a> 
             </div>
             <div class="planet">
-                <img src="images/venus.jpg" alt="venus" >
+                <img src="images/venus.jpg" alt="Image of the planet venus" >
                 <h3>Venus</h3>
-                <button>Learn More</button>
+                <a href="https://en.wikipedia.org/wiki/Venus" class="btn">Learn More</a> 
             </div>
             <div class="planet">
-                <img src="images/earth.jpg" alt="earth">
+                <img src="images/earth.jpg" alt="Image of the planet earth">
                 <h3>Earth</h3>
-                <button>Learn More</button>
+                <a href="https://en.wikipedia.org/wiki/Earth" class="btn">Learn More</a> 
             </div>
             <div class="planet">
-                <img src="images/moon.jpg" alt="moon">
+                <img src="images/moon.jpg" alt="Image of the moon">
                 <h3>The Moon</h3>
-                <button>Learn More</button>
+                <a href="https://en.wikipedia.org/wiki/Moon" class="btn">Learn More</a> 
             </div>
             <div class="planet">
-                <img src="images/mars.jpg" alt="mars">
+                <img src="images/mars.jpg" alt="Image of the planet mars">
                 <h3>Mars</h3>
-                <button>Learn More</button>
+                <a href="https://en.wikipedia.org/wiki/Mars" class="btn">Learn More</a>
             </div>
         </div>
     </section>
+    </main>
+
     <footer>
-        <p>&copy;2024-The System</p>
+        <p role="contentinfo">&copy;2024-The System</p>
     </footer>
 </body>
 </html>
